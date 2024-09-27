@@ -12,371 +12,476 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIqPsUL2hrz+8f6l8J6q1rt5XKvfpzHvxSZtNLH9upxb3dhlCh9" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIqPsUL2hrz+8f6l8J6q1rt5XKvfpzHvxSZtNLH9upxb3dhlCh9" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<!-- Header -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="img/logo-miner-ribo.png" alt="Logo MINER RIBO" class="img-fluid" style="max-width: 100px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#hero">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#por-que-nosotros">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#equipos">Equipos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#planes">Planes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#beneficios">Beneficios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ubicacion">Ubícanos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#galeria">Galería</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-miner-ribo.png" alt="Logo MINER RIBO" class="img-fluid" style="max-width: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#por-que-nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipos">Equipos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#planes">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beneficios">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#informacion">información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<!-- Hero Section -->
-<section id="hero" class="hero text-white text-center d-flex flex-column justify-content-center align-items-center">
-    <div class="container">
-        <img src="img/logo-miner-ribo.png" alt="Logo MINER RIBO" class="img-fluid" style="max-width: 200px;">
-        <h1 class="display-4 fw-bold">Prepárate para liderar la maquinaria pesada</h1>
-        <p class="lead">Transforma tu futuro con la capacitación más completa en maquinaria pesada del país.</p>
-        <a href="#" class="btn btn-primary btn-lg mt-3">¡Inscríbete Ahora!</a>
-    </div>
-</section>
+    <section id="hero" class="hero text-white text-center d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <img src="img/logo-miner-ribo.png" alt="Logo MINER RIBO" class="img-fluid" style="max-width: 200px;">
+            <h1 class="display-4 fw-bold">Prepárate para liderar la maquinaria pesada</h1>
+            <p class="lead">Transforma tu futuro con la capacitación más completa en maquinaria pesada del país.</p>
+            <a href="#" class="btn btn-primary btn-lg mt-3">¡Inscríbete Ahora!</a>
+        </div>
+    </section>
 
-<div class="separador-degradado"></div>
+    <div class="gradient-separator"></div>
 
-<!-- Sección ¿Por qué nosotros? -->
-<section id="por-que-nosotros" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">¿Por qué elegirnos?</h2>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="feature-box text-center">
-                    <i class="fas fa-bullseye feature-icon mb-3"></i>
-                    <h3 class="feature-title">Nuestra Misión</h3>
-                    <p>Capacitar a operadores que marquen la diferencia en el campo, con un enfoque en la seguridad y la excelencia técnica.</p>
+    <section id="por-que-nosotros" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">¿Por qué elegirnos?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-bullseye feature-icon mb-3"></i>
+                        <h3 class="feature-title">Nuestra Misión</h3>
+                        <p>Capacitar a operadores que marquen la diferencia en el campo, con un enfoque en la seguridad y la excelencia técnica.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="feature-box text-center">
-                    <i class="fas fa-drafting-compass feature-icon mb-3"></i>
-                    <h3 class="feature-title">Diferenciación</h3>
-                    <p>Te ofrecemos aprendizaje práctico con equipos reales, garantizando que domines la operación en cualquier entorno laboral.</p>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-drafting-compass feature-icon mb-3"></i>
+                        <h3 class="feature-title">Diferenciación</h3>
+                        <p>Te ofrecemos aprendizaje práctico con equipos reales, garantizando que domines la operación en cualquier entorno laboral.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="feature-box text-center">
-                    <i class="fas fa-users feature-icon mb-3"></i>
-                    <h3 class="feature-title">¿Quiénes somos?</h3>
-                    <p>Somos una institución con más de 10 años de experiencia formando a los mejores operadores en el sector de la construcción y minería.</p>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-users feature-icon mb-3"></i>
+                        <h3 class="feature-title">¿Quiénes somos?</h3>
+                        <p>Somos una institución con más de 10 años de experiencia formando a los mejores operadores en el sector de la construcción y minería.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<div class="separador-degradado"></div>
+    <div class="gradient-separator"></div>
 
-<!-- Cursos de Maquinaria Pesada -->
-<section id="equipos" class="cursos-section py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">Equipos que Aprenderás a Operar</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <!-- Pestañas específicas para la sección de Equipos -->
-                <div class="nav flex-column nav-pills" id="equipos-nav" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="retro-tab" data-bs-toggle="pill" href="#retro" role="tab" aria-controls="retro" aria-selected="true">Retroexcavadora</a>
-                    <a class="nav-link" id="mini-tab" data-bs-toggle="pill" href="#mini" role="tab" aria-controls="mini" aria-selected="false">Minicargador</a>
-                    <a class="nav-link" id="camioneta-tab" data-bs-toggle="pill" href="#camioneta" role="tab" aria-controls="camioneta" aria-selected="false">Camioneta</a>
-                    <a class="nav-link" id="rodillo-tab" data-bs-toggle="pill" href="#rodillo" role="tab" aria-controls="rodillo" aria-selected="false">Rodillo</a>
-                    <a class="nav-link" id="montacargas-tab" data-bs-toggle="pill" href="#montacargas" role="tab" aria-controls="montacargas" aria-selected="false">Montacargas</a>
-                    <a class="nav-link" id="volquete-tab" data-bs-toggle="pill" href="#volquete" role="tab" aria-controls="volquete" aria-selected="false">Volquete</a>
+    <section id="equipos" class="cursos-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Equipos que Aprenderás a Operar</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="nav flex-column nav-pills" id="equipos-nav" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="retro-tab" data-bs-toggle="pill" href="#retro" role="tab" aria-controls="retro" aria-selected="true">Retroexcavadora</a>
+                        <a class="nav-link" id="mini-tab" data-bs-toggle="pill" href="#mini" role="tab" aria-controls="mini" aria-selected="false">Minicargador</a>
+                        <a class="nav-link" id="camioneta-tab" data-bs-toggle="pill" href="#camioneta" role="tab" aria-controls="camioneta" aria-selected="false">Camioneta 4X4</a>
+                        <a class="nav-link" id="rodillo-tab" data-bs-toggle="pill" href="#rodillo" role="tab" aria-controls="rodillo" aria-selected="false">Rodillo Compactador</a>
+                        <a class="nav-link" id="montacargas-tab" data-bs-toggle="pill" href="#montacargas" role="tab" aria-controls="montacargas" aria-selected="false">Montacargas</a>
+                        <a class="nav-link" id="volquete-tab" data-bs-toggle="pill" href="#volquete" role="tab" aria-controls="volquete" aria-selected="false">Volquete</a>
+                        <a class="nav-link" id="excavadora-tab" data-bs-toggle="pill" href="#excavadora" role="tab" aria-controls="excavadora" aria-selected="false">Excavadora</a>
+                        <a class="nav-link" id="cargador-tab" data-bs-toggle="pill" href="#cargador" role="tab" aria-controls="cargador" aria-selected="false">Cargador Frontal</a>
+                        <a class="nav-link" id="moto-tab" data-bs-toggle="pill" href="#moto" role="tab" aria-controls="moto" aria-selected="false">Motoniveladora</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-8">
-                <div class="tab-content" id="equipos-tabContent">
-                    <div class="tab-pane fade show active" id="retro" role="tabpanel" aria-labelledby="retro-tab">
-                        <div class="row">
-                            <div class="tab-image col-md-6">
-                                <img src="img/cat420f2.png" alt="Retroexcavadora en acción" class="img-fluid mb-3">
-                            </div>
-                            <div class="tab-description col-md-6">
-                                <h3>Retroexcavadora</h3>
-                                <p>Conviértete en un experto en la operación de retroexcavadoras, dominando excavaciones y movimientos de tierra con precisión.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="mini" role="tabpanel" aria-labelledby="mini-tab">
-                        <div class="row">
-                            <div class="tab-image col-md-6">
-                                <img src="img/newholland.png" alt="Minicargador en acción" class="img-fluid mb-3">
-                            </div>
-                            <div class="tab-description col-md-6">
-                                <h3>Minicargador</h3>
-                                <p>Domina el manejo de minicargadores para tareas de carga, transporte y nivelación en espacios reducidos.</p>
+                <div class="col-md-8">
+                    <div class="tab-content" id="equipos-tabContent">
+                        <div class="tab-pane fade show active" id="retro" role="tabpanel" aria-labelledby="retro-tab">
+                            <h3 class="text-center">Retroexcavadora</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/cat420f2.png" alt="Retroexcavadora en acción" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Domina la operación de retroexcavadoras, aprendiendo a excavar, mover tierra y realizar trabajos de precisión en terrenos difíciles.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="camioneta" role="tabpanel" aria-labelledby="camioneta-tab">
-                        <div class="row">
-                            <div class="tab-image col-md-6">
-                                <img src="img/camioneta.png" alt="Camioneta en operación" class="img-fluid mb-3">
-                            </div>
-                            <div class="tab-description col-md-6">
-                                <h3>Camioneta</h3>
-                                <p>Adquiere las habilidades necesarias para operar una camioneta de forma segura y eficiente en terrenos difíciles.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="rodillo" role="tabpanel" aria-labelledby="rodillo-tab">
-                        <div class="row">
-                            <div class="tab-image col-md-6">
-                                <img src="img/rodillo.png" alt="Rodillo en acción" class="img-fluid mb-3">
-                            </div>
-                            <div class="tab-description col-md-6">
-                                <h3>Rodillo</h3>
-                                <p>Especialízate en el uso de rodillos para compactar y nivelar suelos y asfalto, garantizando estabilidad en las superficies de trabajo.</p>
+                        <div class="tab-pane fade" id="mini" role="tabpanel" aria-labelledby="mini-tab">
+                            <h3 class="text-center">Minicargador</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/newholland.png" alt="Minicargador en acción" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Aprende a manejar minicargadores de forma eficiente para realizar trabajos de carga, nivelación y transporte en espacios reducidos.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="montacargas" role="tabpanel" aria-labelledby="montacargas-tab">
-                       <div class="row">
-                           <div class="tab-image col-md-6">
-                               <img src="img/montacargas.png" alt="Montacargas en acción" class="img-fluid mb-3">
+                        <div class="tab-pane fade" id="camioneta" role="tabpanel" aria-labelledby="camioneta-tab">
+                            <h3 class="text-center">Camioneta 4X4</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/camioneta.png" alt="Camioneta en operación" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Adquiere habilidades para conducir camionetas 4x4 en terrenos accidentados y ambientes desafiantes, asegurando un transporte seguro.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="rodillo" role="tabpanel" aria-labelledby="rodillo-tab">
+                            <h3 class="text-center">Rodillo Compactador</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/rodillo.png" alt="Rodillo en acción" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Aprende a operar rodillos compactadores para estabilizar y nivelar suelos y pavimentos, asegurando una base sólida en cualquier construcción.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="montacargas" role="tabpanel" aria-labelledby="montacargas-tab">
+                            <h3 class="text-center">Montacargas</h3>
+                           <div class="row">
+                               <div class="tab-image col-md-6">
+                                   <img src="img/montacargas.png" alt="Montacargas en acción" class="img-fluid mb-3">
+                               </div>
+                               <div class="tab-description col-md-6">
+                                   <p>Conviértete en un experto en el manejo de montacargas, dominando la carga y descarga segura de materiales en almacenes y sitios de trabajo.</p>
+                               </div>
                            </div>
-                           <div class="tab-description col-md-6">
-                               <h3>Montacargas</h3>
-                               <p>Conviértete en un experto en el manejo de montacargas para la carga, descarga y transporte de materiales.</p>
-                           </div>
-                       </div>
-                    </div>
-                    <div class="tab-pane fade" id="volquete" role="tabpanel" aria-labelledby="volquete-tab">
-                        <div class="row">
-                            <div class="tab-image col-md-6">
-                                <img src="img/volquete.png" alt="Volquete en operación" class="img-fluid mb-3">
+                        </div>
+                        <div class="tab-pane fade" id="volquete" role="tabpanel" aria-labelledby="volquete-tab">
+                            <h3 class="text-center">Volquete</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/volquete.png" alt="Volquete en operación" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Aprende a operar volquetes para el transporte de grandes volúmenes de materiales, optimizando el flujo de trabajo en proyectos de construcción.</p>
+                                </div>
                             </div>
-                            <div class="tab-description col-md-6">
-                                <h3>Volquete</h3>
-                                <p>Domina la operación de volquetes para el transporte de grandes volúmenes de material.</p>
+                        </div>
+                        <div class="tab-pane fade" id="excavadora" role="tabpanel" aria-labelledby="excavadora-tab">
+                            <h3 class="text-center">Excavadora</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/excavadora.png" alt="Rodillo en acción" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Domina el manejo de excavadoras hidráulicas, perfeccionando tus habilidades en excavación profunda y manipulación de materiales pesados.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="cargador" role="tabpanel" aria-labelledby="cargador-tab">
+                            <h3 class="text-center">Cargador Frontal</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/cargadorfrontal.png" alt="Montacargas en acción" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Aprende a operar cargadores frontales para mover grandes cantidades de tierra y materiales, maximizando la eficiencia en sitios de construcción.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="moto" role="tabpanel" aria-labelledby="moto-tab">
+                            <h3 class="text-center">Motoniveladora</h3>
+                            <div class="row">
+                                <div class="tab-image col-md-8">
+                                    <img src="img/motoniveladora.png" alt="Volquete en operación" class="img-fluid mb-3">
+                                </div>
+                                <div class="tab-description col-md-4">
+                                    <p>Desarrolla habilidades avanzadas en la operación de motoniveladoras, ideales para nivelar terrenos y preparar superficies en grandes proyectos.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<div class="separador-degradado"></div>
+    <div class="gradient-separator"></div>
 
-<section id="planes" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">Planes de Capacitación</h2>
-        <div class="row g-4 justify-content-center">
-            <div class="col-md-4">
-                <div class="plan-card p-4 shadow-sm rounded text-center">
-                    <h3 class="plan-title mb-3">Curso Básico</h3>
-                    <p>6 máquinas</p>
-                    <p>Duración: 14 meses</p>
-                    <ul class="list-unstyled text-start">
-                        <li><i class="fas fa-check"></i> Retroexcavadora</li>
-                        <li><i class="fas fa-check"></i> Minicargador</li>
-                        <li><i class="fas fa-check"></i> Montacarga</li>
-                        <li><i class="fas fa-check"></i> Rodillo compactador</li>
-                        <li><i class="fas fa-check"></i> Camión volquete</li>
-                        <li><i class="fas fa-check"></i> Camioneta minera</li>
-                    </ul>
-                    <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
+    <section id="planes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Planes de Capacitación</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-4">
+                    <i class="fas fa-calendar-alt fa-2x color-primary"></i>
+                    <p class="mt-3">Nuestras clases son todos los domingos de <strong>8:00 am</strong> a <strong>12:30 pm</strong></p>
+                </div>
+                <div class="col-md-6 text-center mb-4">
+                    <i class="fas fa-chalkboard-teacher fa-2x color-primary"></i>
+                    <p class="mt-3">Los cursos teórico con modalidades <strong>semipresenciales</strong> y <strong>presenciales</strong></p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="plan-card p-4 shadow-sm rounded text-center">
-                    <h3 class="plan-title mb-3">Curso Intermedio</h3>
-                    <p>3 máquinas</p>
-                    <p>Duración: 9 meses</p>
-                    <ul class="list-unstyled text-start">
-                        <li><i class="fas fa-check"></i> Escoge 3 máquinas</li>
-                        <li><i class="fas fa-check"></i> Personalización de cursos</li>
-                        <li><i class="fas fa-check"></i> Dotación incluida</li>
-                    </ul>
-                    <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="plan-card p-4 shadow-sm rounded text-center">
-                    <h3 class="plan-title mb-3">Curso Avanzado</h3>
-                    <p>2 máquinas</p>
-                    <p>Duración: 6 meses</p>
-                    <ul class="list-unstyled text-start">
-                        <li><i class="fas fa-check"></i> Escoge 2 máquinas</li>
-                        <li><i class="fas fa-check"></i> Capacitación especializada</li>
-                        <li><i class="fas fa-check"></i> Personalización avanzada</li>
-                    </ul>
-                    <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="plan-card p-4 shadow-sm rounded text-center">
-                    <h3 class="plan-title mb-3">Curso Profesional</h3>
-                    <p>1 máquina</p>
-                    <p>Duración: 12 meses</p>
-                    <ul class="list-unstyled text-start">
-                        <li><i class="fas fa-check"></i> Capacitación intensiva en 1 máquina</li>
-                        <li><i class="fas fa-check"></i> Prácticas y certificación profesional</li>
-                        <li><i class="fas fa-check"></i> Acceso a evaluaciones finales</li>
-                    </ul>
-                    <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="separador-degradado"></div>
-
-<section id="beneficios" class="cursos-section py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">Beneficios de Capacitarte con Nosotros</h2>
-        <div class="row g-4">
-            <!-- Beneficio 1 -->
-            <div class="col-md-4">
-                <div class="benefit-box text-center p-4 shadow">
-                    <i class="fas fa-graduation-cap fa-3x text-primary mb-3"></i>
-                    <h3>Certificación Oficial</h3>
-                    <p>Recibe una certificación oficial válida para trabajar en todo el país en el manejo de maquinaria pesada.</p>
-                </div>
-            </div>
-            <!-- Beneficio 2 -->
-            <div class="col-md-4">
-                <div class="benefit-box text-center p-4 shadow">
-                    <i class="fas fa-tools fa-3x text-primary mb-3"></i>
-                    <h3>Aprendizaje Práctico</h3>
-                    <p>Obtén experiencia directa en el manejo de maquinaria real en un entorno controlado y seguro.</p>
-                </div>
-            </div>
-            <!-- Beneficio 3 -->
-            <div class="col-md-4">
-                <div class="benefit-box text-center p-4 shadow">
-                    <i class="fas fa-briefcase fa-3x text-primary mb-3"></i>
-                    <h3>Bolsa de Trabajo</h3>
-                    <p>Accede a oportunidades laborales en importantes empresas del sector construcción y minería.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="separador-degradado"></div>
-
-<section id="ubicacion" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">Ubícanos</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <p class="text-center">Nos encontramos en el corazón del distrito industrial. Visítanos para conocer nuestras instalaciones y ver de cerca nuestro equipo de maquinaria pesada.</p>
-                <div class="map-responsive">
-                    <!-- Mapa embebido de Google Maps -->
-                    <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.8590177273084!2d-122.08424938468188!3d37.42206597982574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb41f7d4f1e5%3A0x10a2932dd194dd72!2sGoogleplex!5e0!3m2!1ses!2sus!4v1633038616552!5m2!1ses!2sus"
-                            width="100%"
-                            height="400"
-                            style="border:0;"
-                            allowfullscreen=""
-                            loading="lazy">
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="separador-degradado"></div>
-
-<section id="galeria" class="cursos-section py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">Galería</h2>
-        <h3 class="subtitle-galery">Imágenes</h3>
-        <div class="gallery-grid" id="images">
-            <!-- Imágenes de la galería (generadas por JS) -->
-        </div>
-
-        <h3 class="mt-5 subtitle-galery">Videos</h3>
-        <div id="videoCarousel" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                        <video id="video1" controls class="d-block w-100">
-                            <source src="video/video1.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de videos.
-                        </video>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="plan-card p-4 shadow-sm rounded text-center">
+                        <h3 class="plan-title mb-3">Curso Básico</h3>
+                        <p>6 máquinas</p>
+                        <p>Duración: 14 meses</p>
+                        <ul class="list-unstyled text-start">
+                            <li><i class="fas fa-check"></i> Retroexcavadora</li>
+                            <li><i class="fas fa-check"></i> Minicargador</li>
+                            <li><i class="fas fa-check"></i> Montacarga</li>
+                            <li><i class="fas fa-check"></i> Rodillo compactador</li>
+                            <li><i class="fas fa-check"></i> Camión volquete</li>
+                            <li><i class="fas fa-check"></i> Camioneta minera</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <video id="video2" controls class="d-block w-100">
-                            <source src="video/video2.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de videos.
-                        </video>
+                <div class="col-md-4">
+                    <div class="plan-card p-4 shadow-sm rounded text-center">
+                        <h3 class="plan-title mb-3">Curso Intermedio</h3>
+                        <p>3 máquinas</p>
+                        <p>Duración: 9 meses</p>
+                        <ul class="list-unstyled text-start">
+                            <li><i class="fas fa-check"></i> Escoge 3 máquinas</li>
+                            <li><i class="fas fa-check"></i> Personalización de cursos</li>
+                            <li><i class="fas fa-check"></i> Dotación incluida</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <video id="video3" controls class="d-block w-100">
-                            <source src="video/video3.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de videos.
-                        </video>
+                <div class="col-md-4">
+                    <div class="plan-card p-4 shadow-sm rounded text-center">
+                        <h3 class="plan-title mb-3">Curso Avanzado</h3>
+                        <p>2 máquinas</p>
+                        <p>Duración: 6 meses</p>
+                        <ul class="list-unstyled text-start">
+                            <li><i class="fas fa-check"></i> Escoge 2 máquinas</li>
+                            <li><i class="fas fa-check"></i> Capacitación especializada</li>
+                            <li><i class="fas fa-check"></i> Personalización avanzada</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="plan-card p-4 shadow-sm rounded text-center">
+                        <h3 class="plan-title mb-3">Curso Profesional</h3>
+                        <p>1 máquina</p>
+                        <p>Duración: 12 meses</p>
+                        <ul class="list-unstyled text-start">
+                            <li><i class="fas fa-check"></i> Capacitación intensiva en 1 máquina</li>
+                            <li><i class="fas fa-check"></i> Prácticas y certificación profesional</li>
+                            <li><i class="fas fa-check"></i> Acceso a evaluaciones finales</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary btn-plan-info">Más información</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Colocamos los controles debajo del video -->
-            <div class="carousel-controls mt-3 d-flex justify-content-center">
-                <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
+    <div class="gradient-separator"></div>
+
+    <section id="beneficios" class="cursos-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Beneficios de Capacitarte con Nosotros</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="benefit-box text-center p-4 shadow h-100">
+                        <i class="fas fa-graduation-cap fa-3x text-primary mb-3"></i>
+                        <h3>Certificación Oficial</h3>
+                        <p>Recibe una certificación oficial válida para trabajar en todo el país en el manejo de maquinaria pesada.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="benefit-box text-center p-4 shadow h-100">
+                        <i class="fas fa-tools fa-3x text-primary mb-3"></i>
+                        <h3>Aprendizaje Práctico</h3>
+                        <p>Obtén experiencia directa en el manejo de maquinaria real en un entorno controlado y seguro.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="benefit-box text-center p-4 shadow h-100">
+                        <i class="fas fa-briefcase fa-3x text-primary mb-3"></i>
+                        <h3>Bolsa de Trabajo</h3>
+                        <p>Accede a una red de empresas y oportunidades laborales en el sector de construcción y minería. Conéctate con vacantes exclusivas.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="benefit-box text-center p-4 shadow h-100">
+                        <i class="fas fa-user-check fa-3x text-primary mb-3"></i>
+                        <h3>Recomendación Laboral</h3>
+                        <p>Recibe una recomendación personalizada según tu desempeño, ideal para fortalecer tu perfil profesional en tus postulaciones.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<div class="separador-degradado"></div>
+    <div class="gradient-separator"></div>
 
-<!-- Footer -->
-<footer class="text-center py-3">
-    <p>© <span id="year"></span> Escuela de Operadores de Maquinaria Pesada - MINER RIBO</p>
-</footer>
+    <section id="informacion" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Información</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-map-marker-alt fa-2x color-primary mb-3"></i>
+                        <p>Nos encontramos en el corazón del distrito industrial. Visítanos para conocer nuestras instalaciones y ver de cerca nuestro equipo de maquinaria pesada.</p>
+                    </div>
 
-<!-- Bootstrap JS -->
-<script src="js/bootstrap.bundle.min.js"></script>
-<script language="JavaScript" src="js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-S6z1VgDVT8K2REoM/4XQTh5uEbQGpNpW5QlDldh5RY7gkZJpW8HFnpY+XAKjfyz1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIqPsUL2hrz+8f6l8J6q1rt5XKvfpzHvxSZtNLH9upxb3dhlCh9" crossorigin="anonymous"></script>
+                    <div class="row text-center mb-6">
+                        <div class="col-md-8">
+                            <i class="fas fa-clock fa-2x color-primary mb-2"></i>
+                            <h5 class="subtitle text-center">Horario de Atención</h5>
+                            <p>Lunes a sábado: <strong>9:00 am - 1:00 pm</strong> y <strong>2:00 pm - 6:00 pm</strong></p>
+                            <p>Domingo: <strong>8:00 am - 1:00 pm</strong></p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-phone-alt fa-2x color-primary mb-2"></i>
+                            <h5 class="subtitle text-center">Contacto</h5>
+                            <p>Teléfono: <strong>+51 987 654 321</strong></p>
+                            <p>Email: <strong>minerribo@gmail.com</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="map-responsive">
+                        <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.8590177273084!2d-122.08424938468188!3d37.42206597982574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb41f7d4f1e5%3A0x10a2932dd194dd72!2sGoogleplex!5e0!3m2!1ses!2sus!4v1633038616552!5m2!1ses!2sus"
+                                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="gradient-separator"></div>
+
+    <section id="galeria" class="cursos-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Galería</h2>
+            <h3 class="subtitle">Imágenes</h3>
+            <div class="gallery-grid" id="images">
+                <!-- Imágenes de la galería (generadas por JS) -->
+            </div>
+
+            <h3 class="mt-5 subtitle">Videos</h3>
+            <div id="videoCarousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <video id="video1" controls class="d-block w-100">
+                                <source src="video/video1.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <video id="video2" controls class="d-block w-100">
+                                <source src="video/video2.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de videos.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <video id="video3" controls class="d-block w-100">
+                                <source src="video/video3.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de videos.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colocamos los controles debajo del video -->
+                <div class="carousel-controls mt-3 d-flex justify-content-center">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="gradient-separator"></div>
+
+    <footer>
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 mb-3">
+                    <h5 class="color-primary"><b>Contacto</b></h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-comments"></i> Chat con nosotros</li>
+                        <li><i class="fas fa-phone"></i> +51 987 654 321</li>
+                        <li><i class="fas fa-envelope"></i> minerribo@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="color-primary"><b>Información</b></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Acerca de Nosotros</a></li>
+                        <li><a href="#" class="text-white">Nuestra Misión</a></li>
+                        <li><a href="#" class="text-white">Galería</a></li>
+                        <li><a href="#" class="text-white">Planes de Capacitación</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="color-primary"><b>Cursos</b></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Retroexcavadora</a></li>
+                        <li><a href="#" class="text-white">Minicargador</a></li>
+                        <li><a href="#" class="text-white">Volquete</a></li>
+                        <li><a href="#" class="text-white">Camioneta</a></li>
+                        <li><a href="#" class="text-white">Excavadora</a></li>
+                        <li><a href="#" class="text-white">Cargador Frontal</a></li>
+                        <li><a href="#" class="text-white">Motoniveladora</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="color-primary"><b>Síguenos</b></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i> Facebook</a></li>
+                        <li><a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i> Instagram</a></li>
+                        <li><a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i> YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>
+                        © <span id="year"></span> Escuela de Operadores <strong>MINER RIBO</strong>
+                        <span class="color-primary">|</span> Desarrollado por
+                        <strong><a href="https://jhomt.github.io/portafolio_jhomt/" target="_blank" class="color-primary">JHOMT</a></strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script language="JavaScript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-S6z1VgDVT8K2REoM/4XQTh5uEbQGpNpW5QlDldh5RY7gkZJpW8HFnpY+XAKjfyz1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIqPsUL2hrz+8f6l8J6q1rt5XKvfpzHvxSZtNLH9upxb3dhlCh9" crossorigin="anonymous"></script>
 </body>
 </html>

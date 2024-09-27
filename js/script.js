@@ -1,5 +1,3 @@
-let imagesContainer = document.getElementById("images");
-
 const descriptions = [
     "Alumnos realizando el reconocimiento operativo de la retroexcavadora, familiarizándose con los controles y medidas de seguridad antes de iniciar las prácticas de manejo.",
     "Grupo de estudiantes concluyendo su formación en el taller de mecánica, preparados para aplicar sus conocimientos en el campo de trabajo.",
@@ -71,7 +69,6 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener("scroll", function() {
         let currentSection = "";
         const scrollPosition = window.pageYOffset;
-
         sections.forEach(section => {
             const sectionTop = section.offsetTop - 70;
             const sectionHeight = section.offsetHeight;
@@ -81,6 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
 
+        if (!currentSection) {
+            currentSection = sections[0].getAttribute("id");
+        }
+
+        // Activar el enlace correcto
         navLinks.forEach(link => {
             link.classList.remove("active");
             if (link.getAttribute("href").includes(currentSection)) {
@@ -88,6 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
 
     // Control del comportamiento de las pestañas en la sección equipos
     const tabs = document.querySelectorAll('#equipos-nav .nav-link');

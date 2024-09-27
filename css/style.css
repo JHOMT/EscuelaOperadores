@@ -1,12 +1,11 @@
-/* Variables de colores */
 :root {
-    --color-primario: #ffd700; /* Amarillo */
-    --color-secundario: #212020; /* Gris oscuro */
-    --color-texto: #fff; /* Blanco */
-    --color-fondo: #000; /* Negro */
-    --color-card: #444; /* Gris medio */
-    --color-hover: #ffc107; /* Amarillo claro */
-    --color-border: #ffd700; /* Amarillo */
+    --color-primario: #ffd700;
+    --color-secundario: #212020;
+    --color-texto: #fff;
+    --color-fondo: #000;
+    --color-card: #444;
+    --color-hover: #ffc107;
+    --color-border: #ffd700;
 }
 
 body {
@@ -23,9 +22,22 @@ section {
     padding-bottom: 50px;
 }
 
-.separador-degradado {
+.gradient-separator {
     height: 6px;
     background: linear-gradient(to right, #000000, #ffd700, #212020);
+}
+
+.color-primary{
+    color: var(--color-primario);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-primario);
+}
+
+li{
+    list-style: none;
 }
 
 /* Estilos del header */
@@ -376,22 +388,13 @@ h3 {
 
 /* Estilos de la galería */
 
-.subtitle-galery {
+.subtitle {
     font-weight: 600;
     font-size: 1rem;
     color: var(--color-primario);
     text-align: initial;
     margin-bottom: 20px;
     position: relative;
-}
-
-.subtitle-galery::after {
-    content: '';
-    display: block;
-    width: 80px;
-    height: 4px;
-    background-color: var(--color-primario);
-    margin: 10px 0 0;
 }
 
 .gallery-grid {
@@ -523,7 +526,7 @@ h3 {
 
 /* Footer */
 footer {
-    background-color: var(--color-secundario);
+    background-color: black;
     color: var(--color-texto);
     padding: 20px 0;
 }
