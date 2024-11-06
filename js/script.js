@@ -1,3 +1,4 @@
+/*
 const descriptions = [
     "Alumnos realizando el reconocimiento operativo de la retroexcavadora, familiarizándose con los controles y medidas de seguridad antes de iniciar las prácticas de manejo.",
     "Grupo de estudiantes concluyendo su formación en el taller de mecánica, preparados para aplicar sus conocimientos en el campo de trabajo.",
@@ -59,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error al generar la galería de imágenes:", error.message);
     }
 });
-
+*/
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -82,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function() {
             currentSection = sections[0].getAttribute("id");
         }
 
-        // Activar el enlace correcto
         navLinks.forEach(link => {
             link.classList.remove("active");
             if (link.getAttribute("href").includes(currentSection)) {
@@ -109,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+/*
 var videoCarousel = document.getElementById('videoCarousel');
 var videos = videoCarousel.querySelectorAll('video');
 
@@ -120,3 +121,5 @@ videoCarousel.addEventListener('slide.bs.carousel', function () {
 
 let yearResponse = document.getElementById("year");
 yearResponse.textContent = new Date().getFullYear();
+
+ */
