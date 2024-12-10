@@ -545,3 +545,7 @@ footer p {
     font-size: 1rem;
     color: var(--color-texto);
 }
+
+.fas{
+    color: var(--color-primario) !important;
+}
